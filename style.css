@@ -390,12 +390,15 @@ span{
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio-box img{
-    height: 360px;
-    width: 500px;
+    height: 300px;
+    width: auto;
     transition: .5s ease;
+    
 }
 
 .portfolio-box:hover img{
