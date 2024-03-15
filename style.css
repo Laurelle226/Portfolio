@@ -275,10 +275,10 @@ section{
 }
 
 .home-img img{
-    position: absolute;
+    position: relative;
     bottom: 0;
-    right: 0;
-    width: 35%;
+    left: 50%;
+    width: 75%;
     pointer-events: none;
 }
 
